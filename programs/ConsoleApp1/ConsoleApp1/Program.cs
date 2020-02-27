@@ -8,9 +8,8 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Student p = new Student();
-            Console.WriteLine(p.Name);
+            Console.WriteLine("Name of student: " + p.Name + "\n" + "Mark of student: " +p.GetAvgMark());
             Console.WriteLine("\n");
-            Console.WriteLine(p.GetAvgMark());
             Console.ReadKey();
         }
     }
