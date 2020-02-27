@@ -17,18 +17,31 @@ namespace ConsoleApp1
                 return name;
             }
         }
+
         public double GetAvgMark()
         {
-            for (int i = 1; i < 10; i++)
-            {
-                list.Add(i);
-            }
+            #region Array_of_marks
+
+            #region Marks_of_first_Student
+            list.Add(9);
+            list.Add(5);
+            list.Add(10);
+            list.Add(6);
+            list.Add(7);
+            list.Add(8);
+            list.Add(5);
+            list.Add(6);
+            #endregion
+
+            #endregion
+
             double a = 0;
             for (int i = 0; i < list.Count; i++)
             {
                 a = a + list[i];
             }
-            return a / list.Count;
+            return a = a / list.Count;
+           
         }
 
         public void ResetAllMarks()
