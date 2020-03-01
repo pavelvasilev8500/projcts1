@@ -7,6 +7,7 @@ namespace ConsoleApp1
 {
     class Student
     {
+        
         List<double> list = new List<double>();
         private string name = "Name Surname";
 
@@ -20,21 +21,7 @@ namespace ConsoleApp1
 
         public double GetAvgMark()
         {
-            #region Array_of_marks
-
-            #region Marks_of_first_Student
-            list.Add(9);
-            list.Add(5);
-            list.Add(10);
-            list.Add(6);
-            list.Add(7);
-            list.Add(8);
-            list.Add(5);
-            list.Add(6);
-            #endregion
-
-            #endregion
-
+            Mark.Marks(list);
             double a = 0;
             for (int i = 0; i < list.Count; i++)
             {
@@ -44,12 +31,15 @@ namespace ConsoleApp1
            
         }
 
-        public void ResetAllMarks()
+        public double ResetAllMarks()
         {
+            double a1 = 10;
             for (int i = 0; i < list.Count; i++)
             {
                 list[i] = 0;
+                a1 = list[i];
             }
+            return a1;
         }
     }
 }
