@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projcts1\\Новая папка\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\projcts1\\programs\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\projcts1\\Новая папка\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\projcts1\\programs\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projcts1\\Новая папка\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\projcts1\\programs\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\projcts1\\Новая папка\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "C:\\projcts1\\programs\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\City\\.nuget\\packages\\",
-        "outputPath": "C:\\projcts1\\Новая папка\\ConsoleApp1\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\projcts1\\programs\\ConsoleApp1\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\City\\AppData\\Roaming\\NuGet\\NuGet.Config",
