@@ -5,41 +5,41 @@ using System.Text;
 
 namespace ConsoleApp1
 {
-    class Student
+    public sealed class Student
     {
-        
-        List<double> list = new List<double>();
-        private string name = "Name Surname";
+        public ArrayList studentinfo = new ArrayList();
 
-        public string Name
+        public void StudentInfo()
         {
-            get
-            {
-                return name;
-            }
+            foreach (object o in studentinfo)
+            { Console.Write(o); }
+            Console.WriteLine("\n");
+            foreach(Mark mark in Marks)
+            { Console.WriteLine($"{ mark.Subject}-{mark.Value}\n"); }
         }
+
+        public List<Mark> Marks
+        {
+            get;
+        } = new List<Mark>();
 
         public double GetAvgMark()
         {
-            Mark.Marks(list);
             double a = 0;
-            for (int i = 0; i < list.Count; i++)
+            for (int i = 0; i < Marks.Count; i++)
             {
-                a = a + list[i];
+                a = a + Marks[i].Value;
             }
-            return a = a / list.Count;
+            return a = a / Marks.Count;
            
         }
 
-        public double ResetAllMarks()
+        public void ResetAllMarks()
         {
-            double a1 = 10;
-            for (int i = 0; i < list.Count; i++)
+            for (int i = 0; i < Marks.Count; i++)
             {
-                list[i] = 0;
-                a1 = list[i];
+                Marks[i].Value = 0;
             }
-            return a1;
         }
     }
 }
