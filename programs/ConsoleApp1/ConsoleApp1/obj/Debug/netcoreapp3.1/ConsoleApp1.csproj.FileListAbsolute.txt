@@ -21,3 +21,17 @@ C:\projcts1\programs\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1
 C:\projcts1\programs\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
 C:\projcts1\programs\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
 C:\projcts1\programs\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\Mark.cs
+E:\projcts1\programs\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+E:\projcts1\programs\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\Mark.cs
+E:\projcts1\programs\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+E:\projcts1\programs\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+E:\projcts1\programs\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+E:\projcts1\programs\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+E:\projcts1\programs\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+E:\projcts1\programs\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csprojAssemblyReference.cache
+E:\projcts1\programs\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+E:\projcts1\programs\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+E:\projcts1\programs\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+E:\projcts1\programs\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
+E:\projcts1\programs\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\nunit.framework.dll
+E:\projcts1\programs\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CopyComplete
