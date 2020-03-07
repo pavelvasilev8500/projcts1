@@ -5,43 +5,17 @@ using System.Text;
 
 namespace ConsoleApp1
 {
-    class Mark
-    {
-
-        public static void Marks(List<double> list)
+        public sealed class Mark
         {
-            list.Add(10);
-            list.Add(10);
-            list.Add(10);
-            list.Add(10);
-            list.Add(10);
-        }
+            public string Subject { get; set; }
 
+            public double Value { get; set; }
 
-        List<double> mark = new List<double>();
-        List<string> subject = new List<string>();
-        public string Subject_mark()
-        {
-            Mark.Marks(mark);
-
-            #region Array_of_subjects
-
-            #region Subjects_of_first_Student
-            subject.Add("Q");
-            subject.Add("W");
-            subject.Add("E");
-            subject.Add("R");
-            subject.Add("T");
-            #endregion
-
-            #endregion
-
-            for (int i = 0; i < subject.Count; i++)
+            public Mark(string subject, double value)
             {
-                Console.WriteLine(subject[i] + " = " + mark[i] + "\n");
+                Subject = subject;
+                Value = value;
             }
 
-            return "";
-        }
     }
 }
